@@ -655,7 +655,7 @@ void onInitialization() {
 	scene.objects[i]->color = vec3(0.1f, 0.4f, 0.6f);
 	scene.objects[i]->fr = vec3(0.17f, 0.35f, 1.5f);
 	scene.objects[i]->kappa = vec3(3.1f, 2.7f, 1.9f);
-	scene.objects[i]->isReflective = true;
+	scene.objects[i]->isReflective = false;
 	scene.objects[i++]->isRefractive = true;
 
 	//acquarium wall
